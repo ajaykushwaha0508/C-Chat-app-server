@@ -34,7 +34,7 @@ io.on("connection" , (soket)=>{ // to recieve data pass a name in connection
 });
 
 app.get("/" , (req , res)=>{
-    res.send("C Chat app server ")
+    res.send("C Chat app server is running ")
 })
 app.get("/check" , (req , res)=>{
     res.send("C Chat app server checking")
