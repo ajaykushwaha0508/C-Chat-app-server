@@ -37,7 +37,7 @@ app.get("/" , (req , res)=>{
     res.send("C Chat app server ");
 })
 
-app.get("/chat" , (req , res)=>{
+app.get("/check" , (req , res)=>{
     res.send("C Chat app chat  ");
 })
 
